@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Read Games</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #1fa04a;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            color: #fff;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 7px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td a {
+            color: rgb(207, 62, 51);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        td a:hover {
+            text-decoration: underline;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        button {
+            padding: 1rem 2rem;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        th.heading {
+            background-color: #007BFF;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>Games</h1>
+        <div>
+            <a href="#">Games</a>
+            <a href="addGame.html">Add Game</a>
+        </div>
+    </nav>
+    <table id="gamesTable">
+        <tr>
+            <th class="heading">Game Name</th>
+            <th class="heading">Platform</th>
+        </tr>
+    </table>
+    <button onclick="window.location.href='addGame.html'">New Game</button>
+    <script>
+      window.onload = function() {
+      fetch('https://lime-faithful-hippo.cyclic.app/api/games')
+          .then(response => response.json())
+          .then(data => populateTable(data));
+      }
+
+      function populateTable(data) {
+        let table = document.getElementById('gamesTable');
+        data.forEach(game => {
+            let row = table.insertRow();
+            let cell1 = row.insertCell(0);
+            let cell2 = row.insertCell(1);
+            cell1.innerHTML = `<a href="leaderBoard.html?id=${game.id}" class="game-name">${game.GameName}</a>`;
+            cell2.innerHTML = game.Platform;
+        });
+      }
+    </script>
+</body>
+
+</html>

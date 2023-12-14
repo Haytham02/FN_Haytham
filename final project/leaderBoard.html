@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Leaderboard</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #1fa04a;
+            padding: 0.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            color: #fff;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav div {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 7px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #leaderboardTable {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td:nth-child(1){
+            color: rgb(207, 62, 51);
+            font-weight: bold;
+        }
+
+        td:nth-child(2){
+            color: rgb(25, 160, 25);
+        }
+
+        th {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        th.blue {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        button {
+            padding: 1rem 2rem;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>Leaderboard</h1>
+        <div>
+            <a href="index.html">Games</a>
+            <a href="addLeaderboard.html">Add Score</a>
+        </div>
+    </nav>
+    <h1 id="gameTitle">Leaderboard</h1>
+    <table id="leaderboardTable">
+        <tr>
+            <th class="blue">Player Name</th>
+            <th class="blue">Score</th>
+            <th class="blue">Total Time Played (Hrs)</th>
+        </tr>
+        
+    </table>
+    <button onclick="window.location.href='addLeaderboard.html'">New Entry</button>
+    
+    <script>
+        window.onload = function () {
+            fetch('leaderboard_data.json')
+                .then(response => response.json())
+                .then(data => {
+                    let allGames = data.flat();
+                    let params = new URLSearchParams(window.location.search);
+                    let gameId = params.get("id");
+                    let game = allGames.find(game => game.id == gameId);
+                    if (game) {
+                        
+                        game.Leaderboard.sort((a, b) => b.Score - a.Score);
+                        populateTable(game);
+                    }
+                });
+        };
+
+        function populateTable(game) {
+            document.getElementById("gameTitle").innerText = `${game.Name} Leaderboard`;
+            let table = document.getElementById("leaderboardTable");
+            game.Leaderboard.forEach((entry) => {
+                let row = table.insertRow();
+                let cell1 = row.insertCell(0);
+                let cell2 = row.insertCell(1);
+                let cell3 = row.insertCell(2);
+                cell1.innerHTML = entry.Player;
+                cell2.innerHTML = entry.Score;
+                cell3.innerHTML = entry.Time;
+            });
+        }
+    </script>
+</body>
+
+</html>

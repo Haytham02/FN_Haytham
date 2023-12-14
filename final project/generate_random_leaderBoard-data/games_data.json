@@ -1,0 +1,782 @@
+[
+    {
+      "_id": "6380166d4397517e21a5aba4",
+      "id": 2,
+      "GameName": "Dark Souls",
+      "Platform": "PS3"
+    },
+    {
+      "_id": "655ad96f5eded95d552728ad",
+      "id": 3,
+      "GameName": "Clash Of Clans",
+      "Platform": "Xbox"
+    },
+    {
+      "_id": "655ae8922eb4164bb8bb84c7",
+      "id": 4,
+      "GameName": "PUBG",
+      "Platform": "Xbox"
+    },
+    {
+      "_id": "655b9089c156d98e23514c6e",
+      "id": 5,
+      "GameName": "Candy Crush",
+      "Platform": "Nintendo"
+    },
+    {
+      "_id": "655eab56df18c65ea22b5826",
+      "id": 6,
+      "GameName": "Red Ball",
+      "Platform": "Nintendo"
+    },
+    {
+      "_id": "655ead3058ead15e76f577a2",
+      "id": 7,
+      "GameName": "BGMI",
+      "Platform": "PlayStation"
+    },
+    {
+      "_id": "655ead7fa65c3fb18023eb95",
+      "id": 8,
+      "GameName": "cLash  of ClAns",
+      "Platform": "Nintendo"
+    },
+    {
+      "_id": "656a09f44984608efd08c01a",
+      "id": 9,
+      "GameName": "Red",
+      "Platform": "Playstation"
+    },
+    {
+      "_id": "656a0a944984608efd08c01e",
+      "id": 10,
+      "GameName": "Red1",
+      "Platform": "Playstation1"
+    },
+    {
+      "_id": "656d04a63348791eda2e9a77",
+      "id": 11,
+      "GameName": "GameName",
+      "Platform": "Platform"
+    },
+    {
+      "_id": "656d05853348791eda2e9a7f",
+      "id": 12,
+      "GameName": "d",
+      "Platform": "Platform"
+    },
+    {
+      "_id": "656d07a5e0236ab6411a924c",
+      "id": 13,
+      "GameName": "Red Dead Redemption",
+      "Platform": "PlayStation"
+    },
+    {
+      "_id": "656fd8199eab71134a66acd4",
+      "id": 14,
+      "GameName": "Xbox",
+      "Platform": "Xbox"
+    },
+    {
+      "_id": "656fdadf9eab71134a66ace1",
+      "id": 15,
+      "GameName": "Halo",
+      "Platform": "Xbox"
+    },
+    {
+      "_id": "657088b1dd707ae79a9c450d",
+      "id": 16,
+      "GameName": "Dota 2",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65708921dd707ae79a9c4513",
+      "id": 17,
+      "GameName": "HOMAM V",
+      "Platform": "PC"
+    },
+    {
+      "_id": "657089dcdd707ae79a9c4527",
+      "id": 18,
+      "GameName": "CS2",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65708ad7dd707ae79a9c4530",
+      "id": 19,
+      "GameName": "Lethal Company",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65708b85dd707ae79a9c453a",
+      "id": 20,
+      "GameName": "Hots",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65708c07dd707ae79a9c4541",
+      "id": 21,
+      "GameName": "Dark Souls 2",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65708c54dd707ae79a9c4551",
+      "id": 22,
+      "GameName": "Dark souls 3",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65708c95dd707ae79a9c455c",
+      "id": 23,
+      "GameName": "Minecraft",
+      "Platform": "Xbox"
+    },
+    {
+      "_id": "657092bcdd707ae79a9c4668",
+      "id": 24,
+      "GameName": "marlo",
+      "Platform": "nontondo"
+    },
+    {
+      "_id": "6571d919502dc47e6455204c",
+      "id": 25,
+      "GameName": "Bioshock:Infinite",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6572963f33cf25962fcde023",
+      "id": 26,
+      "GameName": "tetris",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6572964533cf25962fcde028",
+      "id": 27,
+      "GameName": "name",
+      "Platform": "[object HTMLInputElement]"
+    },
+    {
+      "_id": "6572966233cf25962fcde02d",
+      "id": 28,
+      "GameName": "tetris",
+      "Platform": "[object HTMLInputElement]"
+    },
+    {
+      "_id": "6572968833cf25962fcde034",
+      "id": 29,
+      "GameName": "asd",
+      "Platform": "[object HTMLInputElement]"
+    },
+    {
+      "_id": "657296d033cf25962fcde03f",
+      "id": 30,
+      "GameName": "tetrisasd",
+      "Platform": "[object HTMLInputElement]"
+    },
+    {
+      "_id": "657296fe33cf25962fcde044",
+      "id": 31,
+      "GameName": "tetris99",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65737f7a9c75f52c2625b533",
+      "id": 32,
+      "GameName": "Pizza Tower",
+      "Platform": "PC"
+    },
+    {
+      "_id": "657385ff2d446fa663f2a94d",
+      "id": 33,
+      "GameName": "Neon White",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6573925b20f0419d75c2dd7a",
+      "id": 34,
+      "GameName": "Sonic CD",
+      "Platform": "Sega CD"
+    },
+    {
+      "_id": "657392b520f0419d75c2dd84",
+      "id": 35,
+      "GameName": "ULTRAKILL",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6573931e20f0419d75c2dd8a",
+      "id": 36,
+      "GameName": "DOOM Eternal",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6574d98d369b7717f53b04ba",
+      "id": 37,
+      "GameName": "Bald man's gate 3",
+      "Platform": "intercommunication device"
+    },
+    {
+      "_id": "6574d9f9369b7717f53b04be",
+      "id": 38,
+      "GameName": "Galactic Pinball",
+      "Platform": "Virtual Boy"
+    },
+    {
+      "_id": "6574efa56e7dc9588162fa03",
+      "id": 39,
+      "GameName": "Ratatouille",
+      "Platform": "PS2"
+    },
+    {
+      "_id": "657549f857274906950fe848",
+      "id": 40,
+      "GameName": "Red ball infinity",
+      "Platform": "Nintendo"
+    },
+    {
+      "_id": "657579fe8afdf65a9cc91cc0",
+      "id": 41,
+      "GameName": "Cyberpunk:2077",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6575b94a404dc87e9c15bb7a",
+      "id": 42,
+      "GameName": "dwadawd",
+      "Platform": "adwdawdad"
+    },
+    {
+      "_id": "6575bbe9404dc87e9c15bb7e",
+      "id": 43,
+      "GameName": "dawda",
+      "Platform": "dawdad"
+    },
+    {
+      "_id": "6575dc634dbf1af1648ce041",
+      "id": 44,
+      "GameName": "Pokemon",
+      "Platform": "3DS"
+    },
+    {
+      "_id": "6575e0b74dbf1af1648ce06c",
+      "id": 45,
+      "GameName": "Culdcept Revolt",
+      "Platform": "3DS"
+    },
+    {
+      "_id": "6575e1eb4dbf1af1648ce0a0",
+      "id": 46,
+      "GameName": "NateTest30",
+      "Platform": "NateTest30"
+    },
+    {
+      "_id": "6575e42c4dbf1af1648ce0df",
+      "id": 47,
+      "GameName": "Yo Kai Watch",
+      "Platform": "3DS"
+    },
+    {
+      "_id": "6575e4644dbf1af1648ce0ea",
+      "id": 48,
+      "GameName": "NateTest301",
+      "Platform": "NateTest301"
+    },
+    {
+      "_id": "6575e4874dbf1af1648ce0f1",
+      "id": 49,
+      "GameName": "NateTest304",
+      "Platform": "NateTest304"
+    },
+    {
+      "_id": "6575e59c5280a3c4d3fafef0",
+      "id": 50,
+      "GameName": "Yo Kai Watch 1 Phantom Emblem",
+      "Platform": "3DS"
+    },
+    {
+      "_id": "6575e77e5280a3c4d3fafefa",
+      "id": 51,
+      "GameName": "Terraria",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6575f89666dcd3aa7d9e1912",
+      "id": 52,
+      "GameName": "Yo Kai Watch 2 Psychic Specters",
+      "Platform": "3DS"
+    },
+    {
+      "_id": "6575fa2f66dcd3aa7d9e1919",
+      "id": 53,
+      "GameName": "Yo Kai Watch 3 Moon Rabbit Crew",
+      "Platform": "3DS"
+    },
+    {
+      "_id": "6575fa6566dcd3aa7d9e192a",
+      "id": 54,
+      "GameName": "Yo Kai Watch V3 Sukiyaki Judgement",
+      "Platform": "3DS"
+    },
+    {
+      "_id": "6575fb8166dcd3aa7d9e1949",
+      "id": 55,
+      "GameName": "Yo Kai Watch 4K We're Looking Up At The Same Sky",
+      "Platform": "Nintendo Switch"
+    },
+    {
+      "_id": "6575fc4f66dcd3aa7d9e1952",
+      "id": 56,
+      "GameName": "Yo Kai Watch 5M Academy Y",
+      "Platform": "Nintendo Switch"
+    },
+    {
+      "_id": "6575ffa366dcd3aa7d9e1972",
+      "id": 57,
+      "GameName": "INFINITY EVIL: The Ban Of Self Defence",
+      "Platform": "Unacceptium 127"
+    },
+    {
+      "_id": "6576001d66dcd3aa7d9e1979",
+      "id": 58,
+      "GameName": "INFINITY GOOD: Right To Life, Liberty And Security Of All Living Things",
+      "Platform": "Unbelivium 122"
+    },
+    {
+      "_id": "6576032966dcd3aa7d9e1990",
+      "id": 59,
+      "GameName": "ETERNITY EVIL: Villainous End Of Life, Liberty And Security Of All Living Things",
+      "Platform": "Unacceptium 127"
+    },
+    {
+      "_id": "6576039d66dcd3aa7d9e1995",
+      "id": 60,
+      "GameName": "ETERNITY GOOD: The Heroic Right Of Defence Of Self And Others",
+      "Platform": "Unbelivium 122"
+    },
+    {
+      "_id": "6576059d66dcd3aa7d9e1a2a",
+      "id": 61,
+      "GameName": "Helltaker",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6576060c66dcd3aa7d9e1a37",
+      "id": 62,
+      "GameName": "ABSOLUTE INFINITY: Omega Googology's Super True Endless Ordinal",
+      "Platform": "Unobtainium 123"
+    },
+    {
+      "_id": "657606a366dcd3aa7d9e1a4a",
+      "id": 63,
+      "GameName": "ABSOLUTELY ETERNAL: Theta Googology's Ultra Final Ideal Endless Cardinal",
+      "Platform": "Unobtainium 123"
+    },
+    {
+      "_id": "6576079b6878f3679bf1312d",
+      "id": 64,
+      "GameName": "Portal 2",
+      "Platform": "PC"
+    },
+    {
+      "_id": "657620f98394890d4c3601f7",
+      "id": 65,
+      "GameName": "coc",
+      "Platform": "android"
+    },
+    {
+      "_id": "657627998394890d4c36032c",
+      "id": 66,
+      "GameName": "Mario",
+      "Platform": "Nintendo"
+    },
+    {
+      "_id": "6576280f8394890d4c360332",
+      "id": 67,
+      "GameName": "Genshin Impact",
+      "Platform": "Android"
+    },
+    {
+      "_id": "6576292c8394890d4c3603a9",
+      "id": 68,
+      "GameName": "Final product",
+      "Platform": "Android"
+    },
+    {
+      "_id": "657629608394890d4c3603ae",
+      "id": 69,
+      "GameName": "hello",
+      "Platform": "Android"
+    },
+    {
+      "_id": "657629a38394890d4c3603b3",
+      "id": 70,
+      "GameName": "PUBG",
+      "Platform": "PC"
+    },
+    {
+      "_id": "657629dd8394890d4c3603b9",
+      "id": 71,
+      "GameName": "Forza",
+      "Platform": "Xbox"
+    },
+    {
+      "_id": "65762a698394890d4c3603c2",
+      "id": 72,
+      "GameName": "Days Gone",
+      "Platform": "PlayStation"
+    },
+    {
+      "_id": "6576a41ab7c57a6f7d117517",
+      "id": 73,
+      "GameName": "Heroes of M&M III",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6576bd5e1759f0a05944b7bb",
+      "id": 74,
+      "GameName": "dwadawd",
+      "Platform": "dwada"
+    },
+    {
+      "_id": "6576c46fa672853df8b570f3",
+      "id": 75,
+      "GameName": "NewGame",
+      "Platform": "My Leg"
+    },
+    {
+      "_id": "6576c565a672853df8b5711a",
+      "id": 76,
+      "GameName": "SI Game",
+      "Platform": "PC"
+    },
+    {
+      "_id": "6576ea830c863006db3f9537",
+      "id": 77,
+      "GameName": "Dark Souls updated",
+      "Platform": "PS3"
+    },
+    {
+      "_id": "6576eaa30c863006db3f953a",
+      "id": 78,
+      "GameName": "dlkj",
+      "Platform": "lsadjf"
+    },
+    {
+      "_id": "6576eae50c863006db3f9540",
+      "id": 79,
+      "GameName": "hi",
+      "Platform": "i am"
+    },
+    {
+      "_id": "6576eb8f0c863006db3f9544",
+      "id": 80,
+      "GameName": "tik tok pro",
+      "Platform": "mobile"
+    },
+    {
+      "_id": "6576f1fb59559685b470048c",
+      "id": 81,
+      "GameName": "tiktok mash",
+      "Platform": "mobile"
+    },
+    {
+      "_id": "6576f23d59559685b4700490",
+      "id": 82,
+      "GameName": "games of throns",
+      "Platform": "mobile"
+    },
+    {
+      "_id": "6576fee61f2be834b5c72e54",
+      "id": 83,
+      "GameName": "got",
+      "Platform": "PC"
+    },
+    {
+      "_id": "657719037585a53ce44119ef",
+      "id": 84,
+      "GameName": "DMC",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65771cfaaa5f31321c9738ea",
+      "id": 85,
+      "GameName": "Borderlands 3",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65771e09aa5f31321c9738ef",
+      "id": 86,
+      "GameName": "game",
+      "Platform": "Xbox"
+    },
+    {
+      "_id": "65773e953fd8aa99fe47aea4",
+      "id": 87,
+      "GameName": "tiktok mash pro",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65774f4983ac0c8a5b7b0a10",
+      "id": 88,
+      "GameName": "tiktok mash 2",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65774f6483ac0c8a5b7b0a2d",
+      "id": 89,
+      "GameName": "GTA 6",
+      "Platform": "PS5"
+    },
+    {
+      "_id": "65774fff83ac0c8a5b7b0a43",
+      "id": 90,
+      "GameName": "pedro",
+      "Platform": "[object HTMLInputElement]"
+    },
+    {
+      "_id": "6577571d15dc39d83a53d5d0",
+      "id": 91,
+      "GameName": "dgfd",
+      "Platform": "dfh"
+    },
+    {
+      "_id": "657757d315dc39d83a53d5e3",
+      "id": 92,
+      "GameName": "Minecraft",
+      "Platform": "EVERYWHERE!!!!"
+    },
+    {
+      "_id": "6577609b43a6f4381eff8f06",
+      "id": 93,
+      "GameName": "gaming",
+      "Platform": "EVERYWHERE!!!!"
+    },
+    {
+      "_id": "6577616443a6f4381eff8f64",
+      "id": 94,
+      "GameName": "Half Life: Alyx",
+      "Platform": "Steam"
+    },
+    {
+      "_id": "6577659743a6f4381eff908d",
+      "id": 95,
+      "GameName": "Batleminer",
+      "Platform": "3DS"
+    },
+    {
+      "_id": "657766f2080a52684397cde2",
+      "id": 96,
+      "GameName": "New Game",
+      "Platform": "All"
+    },
+    {
+      "_id": "6577685dec8e6daea40a5572",
+      "id": 97,
+      "GameName": "Undertale",
+      "Platform": "PS4"
+    },
+    {
+      "_id": "65776979ec8e6daea40a558e",
+      "id": 98,
+      "GameName": "Magic Hammer",
+      "Platform": "3DS"
+    },
+    {
+      "_id": "65776bac12aba268cf9b19d7",
+      "id": 99,
+      "GameName": "HollowKnight",
+      "Platform": "PC"
+    },
+    {
+      "_id": "65776bb412aba268cf9b19db",
+      "id": 100,
+      "GameName": "oooo",
+      "Platform": "iiii"
+    },
+    {
+      "_id": "65776c4412aba268cf9b1a07",
+      "id": 101,
+      "GameName": "Earthworm Jim: Special Edition",
+      "Platform": "Sega CD"
+    },
+    {
+      "_id": "65776ceb12aba268cf9b1a18",
+      "id": 102,
+      "GameName": "Manjeet",
+      "Platform": "Pubg"
+    },
+    {
+      "_id": "657776e512aba268cf9b1d98",
+      "id": 103,
+      "GameName": "pubg",
+      "Platform": "everywhere"
+    },
+    {
+      "_id": "65777c729169a0a8ddedfa04",
+      "id": 104,
+      "GameName": "sxassaasd",
+      "Platform": "sadadas"
+    },
+    {
+      "_id": "65777da39169a0a8ddedfa09",
+      "id": 105,
+      "GameName": "hihihi",
+      "Platform": "huhuhu"
+    },
+    {
+      "_id": "657780159169a0a8ddedfa19",
+      "id": 106,
+      "GameName": "aa",
+      "Platform": "bb"
+    },
+    {
+      "_id": "657780ba9169a0a8ddedfa1e",
+      "id": 107,
+      "GameName": "temple run",
+      "Platform": "123"
+    },
+    {
+      "_id": "657780cd9169a0a8ddedfa24",
+      "id": 108,
+      "GameName": "Game",
+      "Platform": "Console"
+    },
+    {
+      "_id": "6577815c9169a0a8ddedfa30",
+      "id": 109,
+      "GameName": "free fire",
+      "Platform": "android and iphone"
+    },
+    {
+      "_id": "657781cbd95709bcd03e1494",
+      "id": 110,
+      "GameName": "Ori and the Will of the Wisps",
+      "Platform": "Xbox Two"
+    },
+    {
+      "_id": "65778aead95709bcd03e160d",
+      "id": 111,
+      "GameName": "The Witcher III: Wild Hunt",
+      "Platform": "PlayStation"
+    },
+    {
+      "_id": "65778dcdb1cdad304557cae8",
+      "id": 112,
+      "GameName": "Raj",
+      "Platform": "[object HTMLInputElement]"
+    },
+    {
+      "_id": "65778f20b1cdad304557cb2b",
+      "id": 113,
+      "GameName": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
+      "Platform": "Nintendo 3DS"
+    },
+    {
+      "_id": "6577904eb1cdad304557cb30",
+      "id": 114,
+      "GameName": "Turbo Super Smash Bros. All-Stars Battle Royale at the Olympic Games: HD Remix and Knuckles (Featuring Dante from the Devil May Cry Series)",
+      "Platform": "Wii U"
+    },
+    {
+      "_id": "657790feb1cdad304557cb37",
+      "id": 115,
+      "GameName": "Turbo Super Smash Bros. All-Stars Battle Royale at the Olympic Games: HD Remix and Knuckles 2: Electric Boogaloo: Smash Harder DX Ultra (Featuring Dante from the Devil May Cry Series) (New Funky Mode)",
+      "Platform": "PS Vita"
+    },
+    {
+      "_id": "657795955fb442bc2d36b306",
+      "id": 116,
+      "GameName": "The Satanic Never True Absolute Godly Ultimate Omega Mega Super Even More Godder Endless Ordinary Cardinal",
+      "Platform": "Googology+"
+    },
+    {
+      "_id": "6577961d5fb442bc2d36b30a",
+      "id": 117,
+      "GameName": "ETERNAL PARADISE: The Ultra Final Fated Reward",
+      "Platform": "Unbelivium 122"
+    },
+    {
+      "_id": "657796485fb442bc2d36b30e",
+      "id": 118,
+      "GameName": "INFINITE INFERNO: The Super Final Fated Punishment",
+      "Platform": "Unacceptium 127"
+    },
+    {
+      "_id": "6577b35579b6143cf2d5f415",
+      "id": 119,
+      "GameName": "Moba",
+      "Platform": "[object HTMLInputElement]"
+    },
+    {
+      "_id": "6577ccdd8bdae9b828bb087c",
+      "id": 120,
+      "GameName": "jagdeep",
+      "Platform": "mario"
+    },
+    {
+      "_id": "6577d23b8bdae9b828bb0e72",
+      "id": 121,
+      "GameName": "Jagdeep",
+      "Platform": "Temple Run"
+    },
+    {
+      "_id": "657895093cf93cd6d5f470f9",
+      "id": 122,
+      "GameName": "Red Ball",
+      "Platform": "EveryWhere"
+    },
+    {
+      "_id": "657904aa10da0a4ea268746d",
+      "id": 123,
+      "GameName": "jagdeep",
+      "Platform": "pokemon"
+    },
+    {
+      "_id": "6579200910da0a4ea2687d38",
+      "id": 124,
+      "GameName": "Vengence",
+      "Platform": "ALL!!"
+    },
+    {
+      "_id": "65792a42a8a53601607fb4da",
+      "id": 125,
+      "GameName": "Jagdeep",
+      "Platform": "Free Fire"
+    },
+    {
+      "_id": "65792ab8a8a53601607fb50f",
+      "id": 126,
+      "GameName": "Deep",
+      "Platform": "Parking"
+    },
+    {
+      "_id": "65793e74a8a53601607fb7ce",
+      "id": 127,
+      "GameName": "THE TRUE ENDLESS",
+      "Platform": "Googology+"
+    },
+    {
+      "_id": "657948b3b1eb73822f2db91b",
+      "id": 128,
+      "GameName": "abdef",
+      "Platform": "abdef"
+    },
+    {
+      "_id": "65794928b1eb73822f2db920",
+      "id": 129,
+      "GameName": "Dork Souls 5",
+      "Platform": "ImagineStation7"
+    },
+    {
+      "_id": "657955e5fc693572630fb283",
+      "id": 130,
+      "GameName": "Spyro the Dragon",
+      "Platform": "N64"
+    },
+    {
+      "_id": "65796ccd933acc31c038164e",
+      "id": 131,
+      "GameName": "Test Game",
+      "Platform": "Test Platform"
+    }
+  ]

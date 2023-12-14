@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Score</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #1fa04a;
+            padding: 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            color: #fff;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav div {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 7px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #gameTitle {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            width: 40%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        input[type="button"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        input[type="button"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>LeaderBoard</h1>
+        <div>
+            <a href="index.html">Games</a>
+            <a href="addLeaderboard.html">Add Score</a>
+        </div>
+    </nav>
+    <h1 id="gameTitle">Add score to {Game Name}</h1>
+    <form id="scoreForm">
+        <label for="player">Player:</label><br>
+        <input type="text" id="player" name="player"><br>
+        <label for="score">Score:</label><br>
+        <input type="number" id="score" name="score"><br>
+        <label for="time">Time:</label><br>
+        <input type="number" id="time" name="time"><br>
+        <input type="button" value="Submit" onclick="submitScore()">
+    </form>
+
+    <script>
+        function submitScore() {
+            let player = document.getElementById('player').value.trim();
+            let score = document.getElementById('score').value.trim();
+            let time = document.getElementById('time').value.trim();
+
+            if (!player || !score || !time) {
+                alert('All fields are required!');
+                return;
+            }
+
+            alert(`Score submitted!\nPlayer: ${player}\nScore: ${score}\nTime: ${time} hours`);
+        }
+    </script>
+</body>
+
+</html>

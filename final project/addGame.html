@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Game</title>
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        }
+
+    nav {
+        background-color: #1fa04a;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav h1 {
+        color: #fff;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    nav div {
+        display: flex;
+        align-items: center;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 7px;
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+        text-decoration: none;
+        color: #007BFF;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    #addGameForm {
+        width: 40%;
+        margin: 3rem auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+
+    input[type="button"] {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    input[type="button"]:hover {
+        background-color: #0056b3;
+    }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>Add Games</h1>
+        <div>
+            <a href="index.html">Games</a>
+            <a href="#">Add Game</a>
+        </div>
+    </nav>
+    <form id="addGameForm">
+        <label for="gameName">Game Name:</label><br>
+        <input type="text" id="gameName" name="gameName"><br>
+        <label for="platform">Platform:</label><br>
+        <input type="text" id="platform" name="platform"><br>
+        <input type="button" value="Submit" onclick="addGame()">
+    </form>
+    <script>
+        function addGame() {
+        let gameName = document.getElementById('gameName').value.trim();
+        let platform = document.getElementById('platform').value.trim();
+
+        if (!gameName || !platform) {
+            alert('Both fields are required!');
+            return;
+        }
+
+        let gameData = {
+            name: gameName,
+            platform: platform
+        };
+
+        fetch('https://lime-faithful-hippo.cyclic.app/api/games', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(gameData),
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                alert('Error: ' + data.error);
+            } else {
+                window.location.href = 'index.html';
+            }
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+    }
+    </script>
+</body>
+
+</html>
